@@ -1,0 +1,291 @@
+/* Fonte Google*/
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Open+Sans:wght@300;400&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* NAVEBAR */
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+nav ul li a {
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(74, 73, 73);
+}
+
+nav ul li a:hover {
+    font-size: 23px;
+    text-decoration: underline;
+    color: #59AFB2;
+    transition: 0.3s;
+}
+
+header .user {
+    margin-top: 5px;
+    width: 90;
+    height: 50px
+}
+
+.header .user:hover {
+    font-size: 23px;
+    transition: 0.4s;
+}
+
+.background-video {
+    position: absolute;
+    width: 100%;
+    height: 130%;
+    z-index: -1;
+}
+
+/* POR QUE? */
+.introducao img {
+    width: 100vw;
+    height: 60%;
+    position: absolute;
+    z-index: -1;
+}
+
+.introducao h1 {
+    font-family: 'Style Script', cursive;
+    font-size: 45px;
+    text-align: center;
+    padding: 8%;
+    padding-bottom: 0;
+}
+
+.introducao p {
+    padding: 13%;
+    padding-top: 0;
+    font-size: 15px;
+}
+
+
+/* TIPOS */
+.titulo h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Style Script', cursive;
+    padding-top: 30px;
+}
+
+.titulo p {
+    padding: 11%;
+    padding-top: 0;
+    padding-bottom: 50px;
+    font-size: 16px;
+}
+
+.opcoes h2 {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 40px;
+    margin-left: 32%;
+}
+
+.opcoes p {
+    padding-left: 17%;
+    padding-right: 25%;
+    padding-bottom: 25px;
+}
+
+.pontos_positivos {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(110, 199, 131);
+    border-radius: 100%;
+}
+
+.pontos_negativos {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(220, 113, 113);
+    border-radius: 100%;
+}
+
+.pontos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    gap: 21px;
+}
+
+.itens {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+ul li {
+    list-style: none;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    font-size: 17px;
+}
+
+.imagens .img1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagens .img2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagens {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15%;
+}
+
+.imagens img {
+    margin-right: 13px;
+    margin-bottom: 7px;
+}
+
+.separação {
+    border-radius: dashed solid 2px black;
+}
+
+.tipos {
+    display: flex;
+    flex-direction: row;
+}
+
+.tipos_outros {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+}
+
+.card_total {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 8%;
+}
+
+.card {
+    width: 18%;
+    height: 320px;
+    padding: 2%;
+    background-color: rgba(89,175,178, 0.3);
+    border-radius: 10px;
+    border: 2px solid #336b87;
+    border-bottom: 8px solid #336b87;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card:hover {
+    width: 20%;
+    height: 350px;
+    transition: 0.4s;
+}
+.card_total .card i {
+    font-size: 85px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.card:hover p{
+    font-weight: bold;
+}
+
+.cadastro {
+    padding: 10px;
+    width: 100vw;
+    height: 41vh;
+    background-color: #4b85a2;
+}
+
+.cadastro .recado h2{
+    padding-bottom: 7px;
+}
+
+.cadastro .recado {
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-right: 25%;
+}
+
+.veiculos_cadastro {
+    display: flex;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: row;
+}
+
+.cadastro .infos {
+    padding-top: 2%;
+    padding-right: 40%;
+}
+
+.cadastro input{
+    width: 15vw;
+    height: 5vh;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #4b85a2;
+    border: 3px solid antiquewhite;
+}
+
+::-webkit-input-placeholder {
+    color: antiquewhite;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.botao {
+    margin-right: 30px;
+}
+
+.infos button{
+    width: 7vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+/* .footer {
+   width: 100%;
+   height: 30%;
+   background-color: #59AFB2;
+} */

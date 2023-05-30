@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  padding: 10%;
+}
+ 
+
+.login h1 {
+  text-align: center;
+  font-family: 'Style Script', cursive;
+  font-size: 60px;
+}
+
+.login .infos input {
+  width: 10vw;
+  height: 3vh;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f3fbff;
+  border: 3px solid antiquewhite;
+}
+
+.login .infos button{
+    width: 4vw;
+    height: 4vh;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.pag_login {
+  display: flex;
+  flex-direction: row;
+}
+
